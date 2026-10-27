@@ -1,0 +1,18 @@
+
+# Environment dan kredensial rahasia
+.env
+.env.*
+!.env.example
+
+# File log dan sementara
+*.log
+*.tmp
+*.bak
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Konfigurasi database lokal
+/config/database.php
